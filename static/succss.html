@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>MAT实验室报名</title>
+
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch'
+    href='https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand|Open+Sans+Condensed:300|Oswald|Catamaran'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.css'>
+
+  <link rel="stylesheet" href="../static/css/style.css">
+
+
+</head>
+
+<body>
+
+  <body>
+    <div class="content">
+      <div class="container">
+        <div class="header">
+          报名成功名单
+        </div>
+        <div class="row_container">
+
+          <div class="row">
+            <div class="text">
+              
+            </div>
+            <div class="cancel">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+
+  <script src="js/index.js"></script>
+  <script>
+    $.post("/student", function(result){
+      if(result.code == "1") {
+        console.log(result.data);
+        var str = "<div class=\"row\">" +
+            "            <div class=\"stuNumber\">" +
+            "              <b>学号</b>" +
+            "            </div>" +
+            "            <div class=\"name\">" +
+            "              <b>姓名</b>" +
+            "            </div>" +
+            "          </div>";
+        for(var i = 0; i < result.data.length; i ++) {
+            student = result.data[i]
+          str += '<div class="row">' +
+              '            <div class="stuNumber">' + student.userid +
+              '              ' +
+              '            </div>' +
+              '            <div class="name">' + student.name +
+              '              ' +
+              '            </div>' +
+              '          </div>'
+        }
+        $('.row_container').empty().append(str);
+      }
+    })
+  </script>
+
+</body>
+
+</html>

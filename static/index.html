@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>MAT实验室19招新</title>
+
+    <!-- Icons font CSS-->
+    <link href="../static/../static/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../static/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="../static/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../static/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+    <!-- Jquery JS-->
+    <script src="../static/vendor/jquery/jquery.js"></script>
+    <script src="http://recaptcha.net/recaptcha/api.js?render=6LeNtboUAAAAAC6Cgqx_V1KjuMWbOs4VKT0hQcR7"></script>
+    <script>
+        function stuLogin() {
+            var userid = $("[name='userid']").val();
+            var subject = $("#subject").val();
+            console.log(subject);
+            if(userid.length == 0 || subject == null) {
+                alert("学号和方向不能为空嗷~");
+                return;
+            }
+            var data = {
+                "userid" : userid,
+                "subject" : subject
+            }
+            $.post("/sign", $.param(data), function(result){
+                if(result.code == "1") {
+                	alert("恭喜你," + result.userClass + result.name + "同学，报名成功~");
+                    window.location = "https://reg.csust.xyz/student";
+                }
+                else if (result.code == "0") {
+                	alert(result.message);
+                }
+                else if (result.code == "-1") {
+                	alert(result.message);
+                }
+                else {
+                	alert("好像出了点问题QAQ");
+                }
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">MAT实验室2019招新报名表</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row m-b-55">
+                            <div class="name">学号</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="userid">
+                                    <label class="label--desc">输入你的学号</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="name">报名方向</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select id="subject">
+                                            <option disabled="disabled" selected="selected">选择一个方向</option>
+                                            <option value="前端">前端</option>
+                                            <option value="安卓">安卓</option>
+                                            <option value="后台">后台</option>
+                                            <option value="物联网">硬件</option>
+                                            <option value="大数据">大数据</option>
+                                        </select>
+                                        <label class="label--desc">你对什么方向最感兴趣呢</label>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="form-row p-t-20">
+                            <label class="label label--block">确认以上信息没有问题吗</label>
+                            <div class="p-t-15">
+                                <label class="radio-container m-r-55">是的
+                                    <input type="radio" name="exist">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="radio-container">不，我还要再改改
+                                    <input type="radio" checked="checked" name="exist">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div> -->
+                        <br>
+                        <div class="g-recaptcha" data-sitekey="6LeNtboUAAAAAC6Cgqx_V1KjuMWbOs4VKT0hQcR7"></div>
+                        <div>
+                            <a class="btn btn--radius-2 btn--red" id="submit" style="display: block; margin: 0 auto;text-align: center;width: 150px;height: 50px;" onclick="stuLogin()">提交</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Vendor JS-->
+    <script src="../static/vendor/select2/select2.min.js"></script>
+    <script src="../static/vendor/datepicker/moment.min.js"></script>
+    <script src="../static/vendor/datepicker/daterangepicker.js"></script>
+    <!-- Main JS-->
+    <script src="../static/js/global.js"></script>
+    
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->

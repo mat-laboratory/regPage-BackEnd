@@ -1,0 +1,173 @@
+[2019-09-28 02:46:38 +0800] [3218] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 02:46:38 +0800] [3218] [INFO] Listening at: http://127.0.0.1:8000 (3218)
+[2019-09-28 02:46:38 +0800] [3218] [INFO] Using worker: sync
+[2019-09-28 02:46:38 +0800] [3221] [INFO] Booting worker with pid: 3221
+[2019-09-28 02:46:38 +0800] [3222] [INFO] Booting worker with pid: 3222
+[2019-09-28 02:46:38 +0800] [3223] [INFO] Booting worker with pid: 3223
+[2019-09-28 02:46:38 +0800] [3224] [INFO] Booting worker with pid: 3224
+[2019-09-28 02:46:52 +0800] [3218] [INFO] Handling signal: hup
+[2019-09-28 02:46:52 +0800] [3218] [INFO] Hang up: Master
+[2019-09-28 02:46:52 +0800] [3241] [INFO] Booting worker with pid: 3241
+[2019-09-28 02:46:52 +0800] [3243] [INFO] Booting worker with pid: 3243
+[2019-09-28 02:46:52 +0800] [3244] [INFO] Booting worker with pid: 3244
+[2019-09-28 02:46:52 +0800] [3242] [INFO] Booting worker with pid: 3242
+[2019-09-28 03:33:17 +0800] [3218] [INFO] Handling signal: term
+[2019-09-28 03:33:17 +0800] [3241] [INFO] Worker exiting (pid: 3241)
+[2019-09-28 03:33:17 +0800] [3218] [INFO] Shutting down: Master
+[2019-09-28 03:34:16 +0800] [826] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 03:34:16 +0800] [826] [INFO] Listening at: http://127.0.0.1:8000 (826)
+[2019-09-28 03:34:16 +0800] [826] [INFO] Using worker: sync
+[2019-09-28 03:34:16 +0800] [829] [INFO] Booting worker with pid: 829
+[2019-09-28 03:34:16 +0800] [830] [INFO] Booting worker with pid: 830
+[2019-09-28 03:34:16 +0800] [831] [INFO] Booting worker with pid: 831
+[2019-09-28 03:34:16 +0800] [832] [INFO] Booting worker with pid: 832
+[2019-09-28 03:34:57 +0800] [826] [INFO] Handling signal: winch
+[2019-09-28 03:34:57 +0800] [826] [INFO] Handling signal: winch
+[2019-09-28 03:34:58 +0800] [826] [INFO] Handling signal: winch
+[2019-09-28 03:35:01 +0800] [826] [INFO] Handling signal: winch
+[2019-09-28 03:35:07 +0800] [826] [INFO] Handling signal: winch
+[2019-09-28 03:35:29 +0800] [826] [INFO] Handling signal: winch
+[2019-09-28 03:37:22 +0800] [826] [INFO] Handling signal: int
+[2019-09-28 03:37:22 +0800] [829] [INFO] Worker exiting (pid: 829)
+[2019-09-28 03:37:22 +0800] [830] [INFO] Worker exiting (pid: 830)
+[2019-09-28 03:37:22 +0800] [831] [INFO] Worker exiting (pid: 831)
+[2019-09-28 03:37:22 +0800] [832] [INFO] Worker exiting (pid: 832)
+[2019-09-28 03:37:23 +0800] [826] [INFO] Shutting down: Master
+[2019-09-28 03:43:04 +0800] [896] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 03:43:04 +0800] [896] [INFO] Listening at: http://127.0.0.1:8000 (896)
+[2019-09-28 03:43:04 +0800] [896] [INFO] Using worker: sync
+[2019-09-28 03:43:04 +0800] [899] [INFO] Booting worker with pid: 899
+[2019-09-28 03:43:04 +0800] [900] [INFO] Booting worker with pid: 900
+[2019-09-28 03:43:04 +0800] [901] [INFO] Booting worker with pid: 901
+[2019-09-28 03:43:04 +0800] [903] [INFO] Booting worker with pid: 903
+[2019-09-28 03:43:07 +0800] [896] [INFO] Handling signal: winch
+[2019-09-28 03:43:07 +0800] [896] [INFO] Handling signal: winch
+[2019-09-28 03:43:09 +0800] [896] [INFO] Handling signal: hup
+[2019-09-28 03:43:09 +0800] [896] [INFO] Hang up: Master
+[2019-09-28 03:43:09 +0800] [919] [INFO] Booting worker with pid: 919
+[2019-09-28 03:43:09 +0800] [920] [INFO] Booting worker with pid: 920
+[2019-09-28 03:43:09 +0800] [921] [INFO] Booting worker with pid: 921
+[2019-09-28 03:43:09 +0800] [922] [INFO] Booting worker with pid: 922
+[2019-09-28 03:54:52 +0800] [1179] [INFO] Booting worker with pid: 1179
+[2019-09-28 03:54:52 +0800] [1188] [INFO] Booting worker with pid: 1188
+[2019-09-28 03:54:52 +0800] [896] [INFO] Handling signal: hup
+[2019-09-28 03:54:52 +0800] [896] [INFO] Hang up: Master
+[2019-09-28 03:54:52 +0800] [1191] [INFO] Booting worker with pid: 1191
+[2019-09-28 03:54:52 +0800] [1192] [INFO] Booting worker with pid: 1192
+[2019-09-28 03:54:52 +0800] [896] [INFO] Handling signal: term
+[2019-09-28 03:54:52 +0800] [1193] [INFO] Booting worker with pid: 1193
+[2019-09-28 03:54:52 +0800] [1194] [INFO] Booting worker with pid: 1194
+[2019-09-28 03:54:53 +0800] [1179] [INFO] Worker exiting (pid: 1179)
+[2019-09-28 03:54:53 +0800] [1188] [INFO] Worker exiting (pid: 1188)
+[2019-09-28 03:54:53 +0800] [1192] [INFO] Worker exiting (pid: 1192)
+[2019-09-28 03:54:53 +0800] [1191] [INFO] Worker exiting (pid: 1191)
+[2019-09-28 03:55:22 +0800] [896] [INFO] Shutting down: Master
+[2019-09-28 03:55:58 +0800] [774] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 03:55:58 +0800] [774] [INFO] Listening at: http://127.0.0.1:8000 (774)
+[2019-09-28 03:55:58 +0800] [774] [INFO] Using worker: sync
+[2019-09-28 03:55:58 +0800] [777] [INFO] Booting worker with pid: 777
+[2019-09-28 03:55:58 +0800] [778] [INFO] Booting worker with pid: 778
+[2019-09-28 03:55:58 +0800] [779] [INFO] Booting worker with pid: 779
+[2019-09-28 03:55:58 +0800] [780] [INFO] Booting worker with pid: 780
+[2019-09-28 03:57:42 +0800] [774] [INFO] Handling signal: int
+[2019-09-28 03:57:42 +0800] [777] [INFO] Worker exiting (pid: 777)
+[2019-09-28 03:57:42 +0800] [778] [INFO] Worker exiting (pid: 778)
+[2019-09-28 03:57:42 +0800] [779] [INFO] Worker exiting (pid: 779)
+[2019-09-28 03:57:42 +0800] [780] [INFO] Worker exiting (pid: 780)
+[2019-09-28 03:57:43 +0800] [774] [INFO] Shutting down: Master
+[2019-09-28 03:57:49 +0800] [832] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 03:57:49 +0800] [832] [INFO] Listening at: http://127.0.0.1:8000 (832)
+[2019-09-28 03:57:49 +0800] [832] [INFO] Using worker: sync
+[2019-09-28 03:57:49 +0800] [835] [INFO] Booting worker with pid: 835
+[2019-09-28 03:57:49 +0800] [836] [INFO] Booting worker with pid: 836
+[2019-09-28 03:57:49 +0800] [837] [INFO] Booting worker with pid: 837
+[2019-09-28 03:57:50 +0800] [839] [INFO] Booting worker with pid: 839
+[2019-09-28 11:29:59 +0800] [832] [INFO] Handling signal: winch
+[2019-09-28 11:29:59 +0800] [832] [INFO] Handling signal: winch
+[2019-09-28 11:30:26 +0800] [832] [INFO] Handling signal: hup
+[2019-09-28 11:30:26 +0800] [832] [INFO] Hang up: Master
+[2019-09-28 11:30:26 +0800] [832] [INFO] Handling signal: hup
+[2019-09-28 11:30:26 +0800] [832] [INFO] Hang up: Master
+[2019-09-28 11:30:26 +0800] [1541] [INFO] Booting worker with pid: 1541
+[2019-09-28 11:30:26 +0800] [1542] [INFO] Booting worker with pid: 1542
+[2019-09-28 11:30:26 +0800] [1543] [INFO] Booting worker with pid: 1543
+[2019-09-28 11:30:26 +0800] [1540] [INFO] Booting worker with pid: 1540
+[2019-09-28 11:30:26 +0800] [1544] [INFO] Booting worker with pid: 1544
+[2019-09-28 11:30:26 +0800] [1545] [INFO] Booting worker with pid: 1545
+[2019-09-28 11:30:26 +0800] [1546] [INFO] Booting worker with pid: 1546
+[2019-09-28 11:30:26 +0800] [1547] [INFO] Booting worker with pid: 1547
+[2019-09-28 11:30:27 +0800] [1542] [INFO] Worker exiting (pid: 1542)
+[2019-09-28 11:30:27 +0800] [1541] [INFO] Worker exiting (pid: 1541)
+[2019-09-28 11:30:27 +0800] [1543] [INFO] Worker exiting (pid: 1543)
+[2019-09-28 11:30:27 +0800] [1540] [INFO] Worker exiting (pid: 1540)
+[2019-09-28 11:34:14 +0800] [1758] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 11:34:14 +0800] [1758] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2019-09-28 11:34:14 +0800] [1758] [ERROR] Retrying in 1 second.
+[2019-09-28 11:34:15 +0800] [1758] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2019-09-28 11:34:15 +0800] [1758] [ERROR] Retrying in 1 second.
+[2019-09-28 11:34:16 +0800] [1758] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2019-09-28 11:34:16 +0800] [1758] [ERROR] Retrying in 1 second.
+[2019-09-28 11:34:17 +0800] [1758] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2019-09-28 11:34:17 +0800] [1758] [ERROR] Retrying in 1 second.
+[2019-09-28 11:34:18 +0800] [1758] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2019-09-28 11:34:18 +0800] [1758] [ERROR] Retrying in 1 second.
+[2019-09-28 11:34:19 +0800] [1758] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2019-09-28 14:13:27 +0800] [832] [INFO] Handling signal: hup
+[2019-09-28 14:13:27 +0800] [832] [INFO] Hang up: Master
+[2019-09-28 14:13:27 +0800] [2075] [INFO] Booting worker with pid: 2075
+[2019-09-28 14:13:27 +0800] [2076] [INFO] Booting worker with pid: 2076
+[2019-09-28 14:13:27 +0800] [2077] [INFO] Booting worker with pid: 2077
+[2019-09-28 14:13:27 +0800] [832] [INFO] Handling signal: term
+[2019-09-28 14:13:27 +0800] [2081] [INFO] Booting worker with pid: 2081
+[2019-09-28 14:13:27 +0800] [2075] [INFO] Worker exiting (pid: 2075)
+[2019-09-28 14:13:27 +0800] [2076] [INFO] Worker exiting (pid: 2076)
+[2019-09-28 14:13:27 +0800] [2077] [INFO] Worker exiting (pid: 2077)
+[2019-09-28 14:13:57 +0800] [832] [INFO] Shutting down: Master
+[2019-09-28 14:44:18 +0800] [796] [INFO] Starting gunicorn 19.9.0
+[2019-09-28 14:44:18 +0800] [796] [INFO] Listening at: http://127.0.0.1:8000 (796)
+[2019-09-28 14:44:18 +0800] [796] [INFO] Using worker: sync
+[2019-09-28 14:44:18 +0800] [799] [INFO] Booting worker with pid: 799
+[2019-09-28 14:44:18 +0800] [800] [INFO] Booting worker with pid: 800
+[2019-09-28 14:44:18 +0800] [801] [INFO] Booting worker with pid: 801
+[2019-09-28 14:44:18 +0800] [802] [INFO] Booting worker with pid: 802
+[2019-09-28 17:25:17 +0800] [796] [INFO] Handling signal: winch
+[2019-09-28 17:25:29 +0800] [796] [INFO] Handling signal: winch
+[2019-09-29 06:16:46 +0800] [796] [INFO] Handling signal: hup
+[2019-09-29 06:16:46 +0800] [796] [INFO] Hang up: Master
+[2019-09-29 06:16:46 +0800] [796] [INFO] Handling signal: hup
+[2019-09-29 06:16:46 +0800] [796] [INFO] Hang up: Master
+[2019-09-29 06:16:46 +0800] [1902] [INFO] Booting worker with pid: 1902
+[2019-09-29 06:16:46 +0800] [1904] [INFO] Booting worker with pid: 1904
+[2019-09-29 06:16:46 +0800] [1905] [INFO] Booting worker with pid: 1905
+[2019-09-29 06:16:46 +0800] [1903] [INFO] Booting worker with pid: 1903
+[2019-09-29 06:16:46 +0800] [1906] [INFO] Booting worker with pid: 1906
+[2019-09-29 06:16:46 +0800] [1907] [INFO] Booting worker with pid: 1907
+[2019-09-29 06:16:46 +0800] [1908] [INFO] Booting worker with pid: 1908
+[2019-09-29 06:16:46 +0800] [1909] [INFO] Booting worker with pid: 1909
+[2019-09-29 06:16:48 +0800] [1904] [INFO] Worker exiting (pid: 1904)
+[2019-09-29 06:16:48 +0800] [1902] [INFO] Worker exiting (pid: 1902)
+[2019-09-29 06:16:48 +0800] [1903] [INFO] Worker exiting (pid: 1903)
+[2019-09-29 06:16:48 +0800] [1905] [INFO] Worker exiting (pid: 1905)
+[2019-09-29 12:48:19 +0800] [796] [INFO] Handling signal: hup
+[2019-09-29 12:48:19 +0800] [796] [INFO] Hang up: Master
+[2019-09-29 12:48:19 +0800] [2734] [INFO] Booting worker with pid: 2734
+[2019-09-29 12:48:19 +0800] [2735] [INFO] Booting worker with pid: 2735
+[2019-09-29 12:48:19 +0800] [2736] [INFO] Booting worker with pid: 2736
+[2019-09-29 12:48:19 +0800] [2737] [INFO] Booting worker with pid: 2737
+[2019-09-29 12:48:19 +0800] [796] [INFO] Handling signal: term
+[2019-09-29 12:48:20 +0800] [2736] [INFO] Worker exiting (pid: 2736)
+[2019-09-29 12:48:20 +0800] [2734] [INFO] Worker exiting (pid: 2734)
+[2019-09-29 12:48:49 +0800] [796] [INFO] Shutting down: Master
+[2019-09-29 12:49:50 +0800] [781] [INFO] Starting gunicorn 19.9.0
+[2019-09-29 12:49:50 +0800] [781] [INFO] Listening at: http://127.0.0.1:8000 (781)
+[2019-09-29 12:49:50 +0800] [781] [INFO] Using worker: sync
+[2019-09-29 12:49:50 +0800] [784] [INFO] Booting worker with pid: 784
+[2019-09-29 12:49:50 +0800] [785] [INFO] Booting worker with pid: 785
+[2019-09-29 12:49:50 +0800] [786] [INFO] Booting worker with pid: 786
+[2019-09-29 12:49:51 +0800] [787] [INFO] Booting worker with pid: 787
+[2019-09-29 13:39:44 +0800] [781] [INFO] Handling signal: hup
+[2019-09-29 13:39:44 +0800] [781] [INFO] Hang up: Master
+[2019-09-29 13:39:44 +0800] [861] [INFO] Booting worker with pid: 861
+[2019-09-29 13:39:44 +0800] [862] [INFO] Booting worker with pid: 862
+[2019-09-29 13:39:44 +0800] [863] [INFO] Booting worker with pid: 863
+[2019-09-29 13:39:44 +0800] [864] [INFO] Booting worker with pid: 864
